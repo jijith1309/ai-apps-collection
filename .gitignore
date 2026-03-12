@@ -6,8 +6,11 @@
 # dotenv files
 .env
 
-# Claude Code local settings (contain machine-specific paths)
+# AI assistant instruction/settings files
 .claude/
+CLAUDE.md
+.cursorrules
+.github/copilot-instructions.md
 
 .vscode/
 # User-specific files
@@ -392,6 +395,7 @@ FodyWeavers.xsd
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/mcp.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -525,5 +529,19 @@ testem.log
 /typings
 **/.angular/cache/
 wwwroot
+__screenshots__/
+
+# ASP.NET Core — environment-specific secrets (never commit)
+appsettings.Production.json
+appsettings.Staging.json
+secrets.json
+*.secrets.json
+.env.*
+
+# .NET Aspire
+.aspire/
+
+# Runtime upload directories
+**/Uploads/
 
 
