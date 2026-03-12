@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/JIJIT/.nuget/packages/aspire.apphost.sdk/13.1.0/Sdk/**)",
+      "Bash(powershell -Command \"Add-Type -Path ''C:\\\\Users\\\\JIJIT\\\\.nuget\\\\packages\\\\microsoft.openapi\\\\2.0.0\\\\lib\\\\net8.0\\\\Microsoft.OpenApi.dll''; [System.AppDomain]::CurrentDomain.GetAssemblies\\(\\) | Where-Object { $_.GetName\\(\\).Name -eq ''Microsoft.OpenApi'' } | ForEach-Object { $_.GetExportedTypes\\(\\) | Where-Object { $_.FullName -match ''OpenApiDocument|OpenApiSecurity|OpenApiComponents'' } | Select-Object FullName }\")",
+      "Read(//c/Users/JIJIT/.nuget/packages/**)",
+      "Bash(dotnet script:*)",
+      "Bash(cd /tmp)",
+      "Bash(inspect_openapi.csx:*)",
+      "Bash(mkdir -p /tmp/InspectOpenApi)",
+      "Bash(/tmp/InspectOpenApi/Program.cs:*)",
+      "Bash(/tmp/InspectOpenApi/InspectOpenApi.csproj:*)",
+      "Read(//tmp/**)",
+      "Bash(dotnet run:*)",
+      "Bash(using Microsoft.OpenApi)",
+      "Bash(IOpenApiDocumentTransformer t:*)",
+      "Bash(IOpenApiOperationTransformer ot:*)",
+      "Bash(// Check operation transformer context OpenApiDocumentTransformerContext ctx = null!)",
+      "Bash(var x:*)",
+      "Bash(EOF cd:*)",
+      "Bash(npx ng:*)"
+    ]
+  }
+}

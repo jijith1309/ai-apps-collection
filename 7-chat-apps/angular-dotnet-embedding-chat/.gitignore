@@ -1,0 +1,61 @@
+# ========================
+# .NET / ASP.NET Core
+# ========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+_ReSharper*/
+*.ReSharper
+TestResult.xml
+[Bb]uild/
+publish/
+PublishProfiles/
+
+# Entity Framework migrations (keep the folder, not the snapshot artifacts)
+# Do NOT ignore Migrations/ — they are intentional and should be committed
+
+# ========================
+# User Secrets & Config
+# ========================
+# Never commit real secrets — use dotnet user-secrets for local dev
+appsettings.Production.json
+appsettings.Staging.json
+secrets.json
+*.secrets.json
+.env
+.env.*
+
+# ========================
+# Uploaded User Files
+# ========================
+# Files uploaded by users at runtime — never commit these
+AngularDotNetChat.ApiService/Uploads/
+
+# ========================
+# .NET Aspire
+# ========================
+.aspire/
+
+# ========================
+# Visual Studio / Rider
+# ========================
+.vs/
+*.DS_Store
+Thumbs.db
+*.swp
+
+# ========================
+# Node / Angular (root-level)
+# ========================
+node_modules/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/

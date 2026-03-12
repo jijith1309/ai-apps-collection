@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AngularDotNetChat.ApiService/AngularDotNetChat.ApiService.csproj" />
+  <Project Path="AngularDotNetChat.AppHost/AngularDotNetChat.AppHost.csproj" />
+  <Project Path="AngularDotNetChat.ServiceDefaults/AngularDotNetChat.ServiceDefaults.csproj" />
+</Solution>
