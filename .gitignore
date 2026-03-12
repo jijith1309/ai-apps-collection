@@ -6,6 +6,9 @@
 # dotenv files
 .env
 
+# Claude Code local settings (contain machine-specific paths)
+.claude/
+
 .vscode/
 # User-specific files
 *.rsuser
