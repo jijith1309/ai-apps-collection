@@ -1,0 +1,15 @@
+{
+  "inputs": [],
+  "servers": {
+    "Lead-desk-mcp-server": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "D:\\SampleCodes\\ms-ai-apps\\9-Mcp-Samples\\LeadDesk\\LeadDeskMcp"
+      ],
+      "env": {}
+    }
+  }
+}

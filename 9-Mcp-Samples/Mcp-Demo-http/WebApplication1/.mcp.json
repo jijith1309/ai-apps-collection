@@ -1,0 +1,10 @@
+{
+  "inputs": [],
+  "servers": {
+    "sales-pipeline-http-server-demo": {
+      "type": "http",
+      "url": "http://localhost:5164/api/mcp",
+      "headers": {}
+    }
+  }
+}
