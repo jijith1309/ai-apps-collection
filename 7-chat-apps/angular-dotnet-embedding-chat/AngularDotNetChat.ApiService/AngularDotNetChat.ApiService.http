@@ -1,6 +1,0 @@
-@AngularDotNetChat.ApiService_HostAddress = http://localhost:5107
-
-GET {{AngularDotNetChat.ApiService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
